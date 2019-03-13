@@ -1,0 +1,33 @@
+<div class="items-index">
+  <% 3.times do %>
+  <div class="item-group">
+    <div class="title">よく乾杯されているお酒</div>
+    <% 2.times do %>
+    <div class="each-row">
+      <% 2.times do %>
+      <%= link_to item_path(1) do %>
+      <div class="item">
+        <div class="img">
+          <%= image_tag("https://images-fe.ssl-images-amazon.com/images/I/3194SNNR5XL._SY445_QL70_.jpg") %>
+        </div>
+        <div class="item-name">
+          カルサーダ・クイネア クイネア・レセルバ 750ml
+        </div>
+      </div>
+      <% end %>
+      <%= link_to item_path(1) do %>
+      <div class="item">
+        <div class="img">
+          <%= image_tag("https://images-na.ssl-images-amazon.com/images/I/312xQCNFHcL.jpg") %>
+        </div>
+        <div class="item-name">
+          カルサーダ・クイネア クイネア・レセルバ 750ml
+        </div>
+      </div>
+      <% end %>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>

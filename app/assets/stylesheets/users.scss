@@ -1,0 +1,68 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*index*/
+div.user-items-index {
+  width: 65%;
+  margin: 0 auto;
+}
+
+div.user-item-group div.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+div.user-item-group div.user-info {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+div.user-item-group div.user-info div.img img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+div.user-item-group div.user-info div.name {
+  padding-top: 6px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+div.each-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+div.each-row a {
+  display: inline-block;
+}
+
+div.user-items-index div.user-item {
+  text-align: center;
+}
+
+div.user-items-index div.user-item div.img {
+  width: 210px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px 0px;
+  border: solid 1px #eee;
+}
+
+div.user-items-index div.user-item div.img img {
+  height: 150px;
+  object-fit: cover;
+  background: #fff;
+}
+
+div.user-items-index div.user-item-name {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: left;
+  width: 210px;
+}
